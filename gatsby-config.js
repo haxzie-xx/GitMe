@@ -5,4 +5,5 @@ module.exports = {
     profile: 'https://github.com/haxzie'
   },
   plugins: ['gatsby-plugin-react-helmet'],
+  pathPrefix: '/GitMe'
 }
