@@ -2,7 +2,7 @@
 ## Let's help you submit your first pull request
 
 follow the instructions [here](https://haxzie.github.io/GitMe) to get started. 
-```
+
 
 ## Deploy
 
