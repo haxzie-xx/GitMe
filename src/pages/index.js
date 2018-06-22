@@ -61,7 +61,7 @@ const IndexPage = () => (
     <h3>Step 6</h3>
     <p>
       Let's push the changes to your repository!<i className="em em-arrow_up"></i> execute the following command to push all the changes to the forked copy in your GitHub account.
-      <Code code="git push -u origin master"/>
+      <Code code="git push -u origin YOUR_BRANCH_NAME"/>
     </p>
     <h3>Step 7</h3>
     <p>
