@@ -9,9 +9,9 @@ const Header = ({ siteTitle }) => (
       <div className="nav">
           <div className="brand-text">{ siteTitle }</div>
           <div className="github-logo">
-              <Link target="_blank" to="https://github.com/haxzie/GitMe">
+              <a target="_blank" href="https://github.com/haxzie/GitMe">
                   <img alt="github-logo" src={github_logo}/>
-              </Link>
+              </a>
           </div>
       </div>
     </div>

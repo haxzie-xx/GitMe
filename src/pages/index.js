@@ -13,14 +13,14 @@ const IndexPage = () => (
     
     <h3>Step 1</h3>
     <p>
-      Goto the <Link to="https://github.com/haxzie/GitMe"> GitHub repository </Link> of this project and fork the project to your account. <i className="em em-knife_fork_plate"></i>  
+      Goto the <a target="_blank" href="https://github.com/haxzie/GitMe"> GitHub repository </a> of this project and fork the project to your account. <i className="em em-knife_fork_plate"></i>  
        Click on the fork button on the top right corner of the repository page to do it. Once done, GitHub will take you to the forked copy in your account.
       <Code code="https://github.com/haxzie/GitMe"/>
     </p>
     <h3>Step 2</h3>
     <p>
       Clone the forked repository to your local machine. Click on the big green button saying "Clone or download" and copy the https url of your repository.
-      Fire up the terminal (on linux systems ctrl+alt+t. on Windows open the <Link to="https://git-scm.com/download/win">Git-bash</Link> ) navigate to your desired directory and type the following command. Replace the link with the clone URL of your repository and hit Enter.
+      Fire up the terminal (on linux systems ctrl+alt+t. on Windows open the <a target="_blank" href="https://git-scm.com/download/win">Git-bash</a> ) navigate to your desired directory and type the following command. Replace the link with the clone URL of your repository and hit Enter.
       <Code code="git clone https://github.com/YOUR_USERNAME/GitMe.git"/>
     </p>
     <h3>Step 3</h3>
@@ -65,7 +65,7 @@ const IndexPage = () => (
     </p>
     <h3>Step 7</h3>
     <p>
-      Now, open your web browser and goto the <Link to="https://github.com/haxzie/GitMe"> original repository on GitHub</Link>. If your changes has been pushed to your forked copy, You'll be able to see an option saying "New Pull Request" in the original repository.
+      Now, open your web browser and goto the <a target="_blank" href="https://github.com/haxzie/GitMe"> original repository on GitHub</a>. If your changes has been pushed to your forked copy, You'll be able to see an option saying "New Pull Request" in the original repository.
       Click on the option, one next page choose the master branch of the main repo against your created-branch name ( choose your branch name we created and not master). the click on create pull request. Once you fill in the commit message and comment click on submit pull request. <br/>
       and you are all done! <i className="em em-confetti_ball"></i> Wait for a reviewer to review your file and merge it to the master. Once its been successfully merged, your profile will be visible in the submissions tab. <i className="em em-trophy"></i>
     </p>
