@@ -1,12 +1,31 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-const SecondPage = () => (
+const Submission = ({data}) => (
   <div>
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    {
+      data.allMarkdownRemark.edges.map(profile => {
+        return <h3>{profile.node.frontmatter.username}</h3>
+      })
+    }
   </div>
 )
 
-export default SecondPage
+export default Submission
+
+
+export const profileQuery = graphql`
+  query profiles{
+    allMarkdownRemark {
+      edges {
+        node {
+          frontmatter {
+            username
+            fullname
+            location
+          }
+        }
+      }
+    }
+  }
+`

@@ -4,5 +4,17 @@ module.exports = {
     author: 'haxzie',
     profile: 'https://github.com/haxzie'
   },
-  plugins: ['gatsby-plugin-react-helmet']
+  plugins: [
+    'gatsby-plugin-react-helmet',
+    {
+      resolve: 'gatsby-transformer-remark',
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/profiles`,
+        name: 'profiles',
+      },
+    },
+  ]
 }
