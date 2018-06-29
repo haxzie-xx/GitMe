@@ -35,7 +35,7 @@ const IndexPage = () => (
     </p>
     <h3>Step 4</h3>
     <p>
-      In your <i className="em em-card_file_box"></i> file manager/terminal navigate to the downloaded repo. Open the sub-directory <i className="em em-file_folder"></i><b>src/profile/</b>. and create a new <b>.md</b> file with your username as the filename with <b>.md</b> extension.<br/>
+      In your <i className="em em-card_file_box"></i> file manager/terminal navigate to the downloaded repo. Open the sub-directory <i className="em em-file_folder"></i><b>src/profiles/</b>. and create a new <b>.md</b> file with your username as the filename with <b>.md</b> extension.<br/>
       It should look like <b>YOUR_USER_NAME.md</b> <i>eg: haxzie.md </i><br/>
       Open this file in your favourite editor and fill the details as below in the frontmatter of the markdown file.
       <br/>
