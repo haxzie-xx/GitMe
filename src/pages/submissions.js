@@ -1,11 +1,13 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Card from '../components/userCard'
 
 const Submission = ({data}) => (
-  <div>
+  <div className="card-container">
     {
       data.allMarkdownRemark.edges.map(profile => {
-        return <h3>{profile.node.frontmatter.username}</h3>
+        return <Card username={profile.node.frontmatter.username}
+                      fullname={profile.node.frontmatter.fullname}/>
       })
     }
   </div>
@@ -16,13 +18,12 @@ export default Submission
 
 export const profileQuery = graphql`
   query profiles{
-    allMarkdownRemark {
+    allMarkdownRemark(sort: {fields:[frontmatter___fullname] order: ASC}) {
       edges {
         node {
           frontmatter {
             username
             fullname
-            location
           }
         }
       }

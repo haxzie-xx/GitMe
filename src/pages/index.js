@@ -44,7 +44,6 @@ const IndexPage = () => (
       ---<br/>
       username: YOUR_USER_NAME<br/>
       fullname: YOUR_FULL_NAME<br/>
-      location: YOUR_LOCATION_NAME<br/>
       ---
       </p>
       <p>
