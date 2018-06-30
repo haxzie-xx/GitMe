@@ -135,11 +135,11 @@ a {
 
 .card-container {
     display: flex;
-    width: 100%;
     padding: 10px;
     justify-content: space-evenly;
     flex-wrap: wrap;
     flex-direction: row;
+    text-align: center;
 }
 
 .profile {
@@ -154,7 +154,6 @@ a {
     -webkit-box-shadow: 0px 5px 30px -5px rgba(194, 117, 238, 0.59);
     -moz-box-shadow: 0px 5px 30px -5px rgba(194, 117, 238, 0.59);
     box-shadow: 0px 5px 30px -5px rgba(194, 117, 238, 0.59);
-
 }
 
 .profile:hover {
