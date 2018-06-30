@@ -25,7 +25,9 @@ const IndexPage = () => (
     </p>
     <h3>Step 3</h3>
     <p>
-      Let's start working on the changes required now! Before jumping in to the code, make sure you're working on a different branch and not in master. To create a new branch, 
+      Let's start working on the changes required now! First cd into the cloned folder by typing the following command.
+      <Code code="cd GitMe"/>
+      Now, Before jumping in to the code, make sure you're working on a different branch and not in master. To create a new branch, 
       from the terminal inside your current project directory type the following command.
       <Code code="git branch YOUR_USERNAME-profile"/>
       Replace the <i>YOUR_USERNAME</i> with your GitHub username or you can give any name to your branch which describes the purpose of the branch. Since here we're adding your profile,
@@ -55,7 +57,7 @@ const IndexPage = () => (
       Commit the changes with a suitable commit message.<i className="em em-white_check_mark"></i> First we need to stage all the changes we made. Open the terminal inside the project directory and execute following commands.
       <Code code="git add -A"/>
       The above command stages all the changes, now lets commit it with a suitable message.
-      <Code code='git commit -m "YOUR_COMMIT_MEESSAGE"'/>
+      <Code code='git commit -m "YOUR_COMMIT_MESSAGE"'/>
     </p>
     <h3>Step 6</h3>
     <p>
