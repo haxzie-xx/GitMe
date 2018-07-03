@@ -1,7 +1,4 @@
 ---
-
-USERNAME:SHANKY1199
-FULLNAME:SHASHANK
-BRANCH: 2ND YEAR IS
-
+username: shanky1199
+fullname: shashank
 ---
