@@ -40,7 +40,6 @@ a {
 .nav {
     display: block;
     overflow: auto;
-    padding-top: 10px;
 }
 
 .nav .brand-text {
