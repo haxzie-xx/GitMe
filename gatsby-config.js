@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: 'GitMe!',
     author: 'haxzie',
-    profile: 'https://github.com/haxzie'
+    profile: 'https://github.com/haxzie',
+    siteUrl: `https://gitme.js.org`
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -16,5 +17,23 @@ module.exports = {
         name: 'profiles',
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-101997744-4",
+        // Puts tracking script in the head instead of the body
+        head: true,
+        // Setting this parameter is optional
+        anonymize: true,
+        // Setting this parameter is also optional
+        respectDNT: true,
+        // Avoids sending pageview hits from custom paths
+        exclude: ["/preview/**", "/do-not-track/me/too/"],
+      },
+    },
+    {
+      //for generating sitemaps for the website
+      resolve: `gatsby-plugin-sitemap`
+    }
   ]
 }
