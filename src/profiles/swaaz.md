@@ -1,4 +1,4 @@
 ---
-username:swaaaz
-fullname:swasthikshetty
+username: swaaaz
+fullname: swasthikshetty
 ---
