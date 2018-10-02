@@ -35,7 +35,7 @@ body {
 
 a {
     color: rgb(193, 78, 197);
-    text-decoration: none; 
+    text-decoration: none;
 }
 .nav {
     display: block;
@@ -50,7 +50,7 @@ a {
     text-align: center;
     color: #ffffff;
     font-size: 1.6em;
-    font-family: 'Pacifico', cursive;    
+    font-family: 'Pacifico', cursive;
 }
 
 .nav .github-logo {
@@ -120,7 +120,7 @@ a {
 .tabs li a.active {
     color: rgb(193, 78, 197);
     border-bottom: 2px solid rgb(193, 78, 197);
-    
+
 }
 
 .code {
@@ -197,17 +197,100 @@ footer {
 
 footer a {
     color: rgb(193, 78, 197);
-    text-decoration: none; 
+    text-decoration: none;
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .container {
+      width: 95%;
+  }
+
+  .tab-holder {
+      text-align: center;
+  }
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  .container {
+      width: 95%;
+  }
+
+  .tab-holder {
+      text-align: center;
+  }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  .container {
+      width: 90%;
+  }
+
+  .tabs {
+      text-align: center;
+  }
+
 }
 
 
-/* 
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .container {
+      width: 90%;
+  }
+  .tabs {
+      padding-left: 20px;
+  }
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  .container {
+      width: 80%;
+  }
+  .tabs {
+      padding-left: 20px;
+  }
+
+}
+
+/*
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
 
 @media (min-width: 1281px) {
-  
+
     .container {
         width: 80%;
     }
@@ -215,88 +298,5 @@ footer a {
     .tabs {
         padding-left: 20px;
     }
-    
+
 }
-  
-  /* 
-    ##Device = Laptops, Desktops
-    ##Screen = B/w 1025px to 1280px
-  */
-  
-  @media (min-width: 1025px) and (max-width: 1280px) {
-    
-    .container {
-        width: 80%;
-    }
-    .tabs {
-        padding-left: 20px;
-    }
-    
-  }
-  
-  /* 
-    ##Device = Tablets, Ipads (portrait)
-    ##Screen = B/w 768px to 1024px
-  */
-  
-  @media (min-width: 768px) and (max-width: 1024px) {
-    
-    .container {
-        width: 90%;
-    }
-    .tabs {
-        padding-left: 20px;
-    }
-    
-  }
-  
-  /* 
-    ##Device = Tablets, Ipads (landscape)
-    ##Screen = B/w 768px to 1024px
-  */
-  
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    
-    .container {
-        width: 90%;
-    }
-
-    .tabs {
-        text-align: center;
-    }
-    
-  }
-  
-  /* 
-    ##Device = Low Resolution Tablets, Mobiles (Landscape)
-    ##Screen = B/w 481px to 767px
-  */
-  
-  @media (min-width: 481px) and (max-width: 767px) {
-    
-    .container {
-        width: 95%;
-    }
-
-    .tab-holder {
-        text-align: center;
-    }
-    
-  }
-  
-  /* 
-    ##Device = Most of the Smartphones Mobiles (Portrait)
-    ##Screen = B/w 320px to 479px
-  */
-  
-  @media (min-width: 320px) and (max-width: 480px) {
-    
-    .container {
-        width: 95%;
-    }
-
-    .tab-holder {
-        text-align: center;
-    }
-    
-  }
