@@ -169,7 +169,7 @@ a {
     box-shadow: 0px 14px 30px -2px rgba(0,0,0, 0.3);
 }
 
-.profile span {
+.profile p {
     margin: 10px auto;
     color: #373738;
 }
@@ -211,37 +211,16 @@ footer a {
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
-
+@media (min-width: 320px) {
   .container {
       width: 95%;
   }
-
   .tab-holder {
       text-align: center;
   }
-
   .profile {
-    width: auto;
+    width: 100%;
   }
-
-}
-
-/*
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
-@media (min-width: 481px) and (max-width: 767px) {
-
-  .container {
-      width: 95%;
-  }
-
-  .tab-holder {
-      text-align: center;
-  }
-
 }
 
 /*
@@ -249,25 +228,20 @@ footer a {
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
+@media (min-width: 768px) and (orientation: landscape) {
   .container {
       width: 90%;
   }
-
   .tabs {
       text-align: center;
   }
-
   .profile {
     width: 80%;
   }
-
   .card-container {
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(320px,1fr));
   }
-
 }
 
 
@@ -276,15 +250,10 @@ footer a {
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) {
-
-  .container {
-      width: 90%;
-  }
+@media (min-width: 768px) {
   .tabs {
       padding-left: 20px;
   }
-
 }
 
 /*
@@ -292,30 +261,10 @@ footer a {
   ##Screen = B/w 1025px to 1280px
 */
 
-@media (min-width: 1025px) and (max-width: 1280px) {
-
+@media (min-width: 1025px) {
   .container {
       width: 80%;
   }
-  .tabs {
-      padding-left: 20px;
-  }
-
 }
 
-/*
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
 
-@media (min-width: 1281px) {
-
-    .container {
-        width: 80%;
-    }
-
-    .tabs {
-        padding-left: 20px;
-    }
-
-}
