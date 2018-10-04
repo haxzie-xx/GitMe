@@ -26,13 +26,14 @@ const Layout = ({ children, data }) => (
       <link rel="manifest" href="/site.webmanifest"/>
       <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ed11ca"/>
     <Header siteTitle={data.site.siteMetadata.title} />
-    
+
     <div className="container">
       <div className="card">
           <div className="tab-holder">
               <ul className="tabs">
                   <li><Link to="/" exact={true} activeClassName="active">Instructions</Link></li>
                   <li><Link to="/submissions/" exact={true} activeClassName="active">Submissions</Link></li>
+                  <li><Link to="/cheatsheet/" exact={true} activeClassName="active">CheatSheet</Link></li>
               </ul>
           </div>
           <div className="content">
