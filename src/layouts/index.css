@@ -205,7 +205,7 @@ footer a {
   ##Screen = B/w 320px to 479px
 */
 
-@media (max-width: 395px) {
+@media (max-width: 400px) {
     .tabs {
       display: flex;  
     }
