@@ -205,10 +205,13 @@ footer a {
   ##Screen = B/w 320px to 479px
 */
 
+@media (min-width: 395px) {
+    .tabs {
+      display: flex;  
+    }
+}
+
 @media (min-width: 320px) {
-  .tabs {
-    display: flex;  
-  }
   .container {
       width: 95%;
   }
