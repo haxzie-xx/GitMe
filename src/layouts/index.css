@@ -206,6 +206,9 @@ footer a {
 */
 
 @media (min-width: 320px) {
+  .tabs {
+    display: flex;  
+  }
   .container {
       width: 95%;
   }
