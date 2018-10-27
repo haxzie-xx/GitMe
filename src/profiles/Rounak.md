@@ -1,4 +1,4 @@
 ---
 username: rounak1288
-fullname: ROUNAK_SAHA
+fullname: Rounak Saha
 ---
