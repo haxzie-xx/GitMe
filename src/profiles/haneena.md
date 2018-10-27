@@ -1,4 +1,4 @@
 ---
 username: haneenaatheeq
-fullname: haneena
+fullname: Haneena
 ---
