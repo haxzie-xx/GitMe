@@ -1,4 +1,4 @@
 ---
-username: arkaan
-fullname:arkaan sayed
+username: arkaanfastboi
+fullname: Arkaan Aayed
 ---
