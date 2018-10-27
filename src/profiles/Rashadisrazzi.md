@@ -1,4 +1,4 @@
 ---
-username: Rashadisrazzi
+username: rashadisrazzi
 fullname: Mohammed Rashad
 ---
