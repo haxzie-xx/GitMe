@@ -1,4 +1,4 @@
 ---
 username: ahmed-saifulla
-fullname: Ahmed Saifulla
+fullname: Ahmed Saifullah
 ---
