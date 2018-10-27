@@ -1,4 +1,4 @@
 ---
 username: AishaMJ
-fullname: AishaMJ
+fullname: Aisha MJ
 ---
