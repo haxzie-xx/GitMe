@@ -1,5 +1,5 @@
 
 ---
 username: aditikirannaik
-fullname: aditi kiran naik
+fullname: Aditi Kiran Naik
 ---
