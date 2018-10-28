@@ -27,7 +27,6 @@ Make sure you have latest version of Node and NPM installed.
   ```
   gatsby build
   ```
-
 ## Deploy
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/haxzie/GitMe)
