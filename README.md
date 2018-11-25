@@ -9,6 +9,7 @@ Make sure you have latest version of Node and NPM installed.
 - Install GatsbyCLI globally. Refer the [Gatsby Docs](https://www.ga
 tsbyjs.org/docs/) for information regarding the framework.
   ```sh
+  aslas
   npm install --global gatsby-cli
   ```
 - Fork and Clone the repository
