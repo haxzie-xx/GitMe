@@ -6,7 +6,8 @@ follow the instructions [here](https://haxzie.github.io/GitMe) to get started.
 ## Setting up the project for development
 Make sure you have latest version of Node and NPM installed. 
 
-- Install GatsbyCLI globally. Refer the [Gatsby Docs](https://www.gatsbyjs.org/docs/) for information regarding the framework.
+- Install GatsbyCLI globally. Refer the [Gatsby Docs](https://www.ga
+tsbyjs.org/docs/) for information regarding the framework.
   ```sh
   npm install --global gatsby-cli
   ```
