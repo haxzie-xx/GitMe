@@ -15,7 +15,7 @@ tsbyjs.org/docs/) for information regarding the framework.
 - Fork and Clone the repository
   ```sh
   git clone https://github.com/YOUR_USERNAME/GitMe
-  ```
+  ``` 
 - Install all the node dependencies
   ```sh
   cd GitMe
