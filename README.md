@@ -5,6 +5,7 @@ follow the instructions [here](https://haxzie.github.io/GitMe) to get started.
 
 
 
+
 ## Setting up the project for development
 Make sure you have latest version of Node and NPM installed. 
 
@@ -34,4 +35,4 @@ tsbyjs.org/docs/) for information regarding the framework.
 
 ## Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/haxzie/GitMe)
+[![Deploy to Netlify
