@@ -6,6 +6,8 @@ follow the instructions [here](https://haxzie.github.io/GitMe) to get started.
 
 
 
+
+
 ## Setting up the project for development
 Make sure you have latest version of Node and NPM installed. 
 
