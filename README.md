@@ -1,7 +1,7 @@
 # Hello Developers :wave:
 ## Let's help you submit your first pull request
 
-follow the instructions [here](https://haxzie.github.io/GitMe) to get started. 
+follow the instructions [here](https://gitme.js.org) to get started. 
 
 ## Setting up the project for development
 Make sure you have latest version of Node and NPM installed. 
